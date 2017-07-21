@@ -1,0 +1,9 @@
+<!--<view class="topBox">
+  <image src="http://bmob-cdn-12778.b0.upaiyun.com/2017/07/09/c700dd064019e7ae808ca28ff89ef686.jpg" mode="aspectFill"></image>
+
+  </view>-->
+<view class="bottomBox">
+<text>开发者：郭茜蓉  郑莉雯</text>
+<text>版本号：v1.0.0</text>
+</view>
+  

@@ -1,0 +1,42 @@
+ {
+  "pages":[
+    "pages/index/index",
+    "pages/main/main",
+    "pages/listDetail/listDetail",
+    "pages/mine/mine",
+    "pages/write/write",
+   "pages/about/about"
+ 
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText": "好货驾到",
+   
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "backgroundColor":"#FAFAFA",
+    "borderStyle":"white",
+    "color":"#b2b2b2",
+    "selectedColor":"#1e1e1e",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "selectedIconPath":"images/11.png",
+      "iconPath":"images/22.jpg",
+      "text": "发布"
+    }, {
+      "pagePath": "pages/main/main",
+      "selectedIconPath":"images/11.png",
+      "iconPath":"images/22.jpg",
+      "text": "主页"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "selectedIconPath":"images/11.png", 
+      "iconPath":"images/22.jpg",
+      "text": "我的"
+    }]
+  }
+
+}

@@ -1,0 +1,24 @@
+
+<form bindsubmit="sendNewMood" >
+
+
+    <view class="add_pic" bindtap="uploadPic" wx-if="{{!isSrc}}">
+        <view>添加图片（选）</view>
+    </view>
+    <view wx:if="{{isSrc}}" class="image_box">
+        <view  class="picPre">
+            <image src="{{src}}"  mode="aspectFill"></image>
+            <view bindtap="clearPic"></view>
+        </view>
+    </view>
+
+
+
+    <input placeholder="请写下商品价格"  class="add_title" value="" bindinput="setTitle" name="title"/>
+    <view  class="addConent">
+        <textarea  placeholder="商品详情描述" maxlength="1000"  value="" name="content"/>
+
+    </view>
+ 
+    <button  hover-start-time="50" disabled="{{isdisabled}}" formType="submit">发布</button>
+    </form>
